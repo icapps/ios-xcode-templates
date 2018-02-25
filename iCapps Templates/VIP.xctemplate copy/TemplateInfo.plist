@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>This generates the view controller, interactor, presenter, models, router and worker.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>New name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Some</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___ViewController</string>
+			<key>Identifier</key>
+			<string>productViewControllerName</string>
+			<key>Name</key>
+			<string>ViewController name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Interactor</string>
+			<key>Identifier</key>
+			<string>productInteractorName</string>
+			<key>Name</key>
+			<string>Interactor name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Presenter</string>
+			<key>Identifier</key>
+			<string>productPresenterName</string>
+			<key>Name</key>
+			<string>Presenter name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Models</string>
+			<key>Identifier</key>
+			<string>productModelsName</string>
+			<key>Name</key>
+			<string>Models name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Router</string>
+			<key>Identifier</key>
+			<string>productRouterName</string>
+			<key>Name</key>
+			<string>Router name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Worker</string>
+			<key>Identifier</key>
+			<string>productWorkerName</string>
+			<key>Name</key>
+			<string>Worker name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.watchos</string>
+		<string>com.apple.platform.appletvos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
+	<string>This generates the view controller, interactor, presenter, models, router and worker.</string>
+</dict>
+</plist>
