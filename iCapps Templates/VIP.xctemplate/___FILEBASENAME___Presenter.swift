@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ___VARIABLE_productName___PresenstationLogic {
+protocol ___VARIABLE_productName___PresentationLogic {
     func present(response: ___VARIABLE_productName___.Data.Response)
 }
 
@@ -19,7 +19,7 @@ class ___FILEBASENAMEASIDENTIFIER___ {
     weak var viewController: ___VARIABLE_productName___DisplayLogic?
 }
 
-extension ___VARIABLE_productName___PresenstationLogic {
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___PresentationLogic {
     func present(response: ___VARIABLE_productName___.Data.Response) {
         let viewModel = ___VARIABLE_productName___.Data.ViewModel()
         viewController?.display(viewModel: viewModel)

@@ -19,7 +19,7 @@ class ___FILEBASENAMEASIDENTIFIER___ {
     weak var viewController: ___VARIABLE_productName___ViewController?
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___RoutingLogic
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___RoutingLogic {
     func routeToHome() {
     }
 }
