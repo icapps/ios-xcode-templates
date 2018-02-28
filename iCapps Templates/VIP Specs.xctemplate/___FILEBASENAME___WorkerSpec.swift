@@ -14,7 +14,7 @@ import Nimble
 class ___FILEBASENAMEASIDENTIFIER___: QuickSpec {
     override func spec() {
         describe("___VARIABLE_productName___Worker") {
-            var worker: ___VARIABLE_productName___Worker!
+            let worker: ___VARIABLE_productName___Worker!
             
             beforeEach {
                 worker = ___VARIABLE_productName___Worker()
