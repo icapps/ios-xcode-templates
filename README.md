@@ -24,11 +24,11 @@ make uninstall_snippets
 
 At the moment we support the following files Templates:
 
-- *MVVM*: Generates the following:
+- **MVVM**: Generates the following:
     - UIViewController
     - ViewModel
 
-- *VIP*: Generates a the following components required for the VIP cycle:
+- **VIP**: Generates a the following components required for the VIP cycle:
     - UIViewController
     - Interactor
     - Presenter
@@ -36,7 +36,7 @@ At the moment we support the following files Templates:
     - Worker
     - Router
 
-- *VIP Spec*: Generates a the following components required to test the VIP cycle:
+- **VIP Spec**: Generates a the following components required to test the VIP cycle:
     - UIViewControllerSpec
     - InteractorSpec
     - PresenterSpec
@@ -48,11 +48,23 @@ These are the code snippets:
 
 ### MARK
 
+_shortcut: mark_
+
 ```swift
 // MARK: - 
 ```
 
+### Swiftlint
+
+_shortcut: disable_
+
+```swift
+// swiftlint:disable force_try
+```
+
 ### Quick Spec
+
+_shortcut: quickspec_
 
 ```swift
 import Quick
