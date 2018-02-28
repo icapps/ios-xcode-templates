@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>This generates the view controller, interactor, presenter, models, router and worker.</string>
+	<string>This generates the view controller, interactor, presenter and worker specs.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the scene to create</string>
+			<string>The name of the scene specs to create</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
@@ -26,7 +26,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___ViewController</string>
+			<string>___VARIABLE_productName:identifier___ViewControllerSpec</string>
 			<key>Identifier</key>
 			<string>productViewControllerName</string>
 			<key>Name</key>
@@ -36,7 +36,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___Interactor</string>
+			<string>___VARIABLE_productName:identifier___InteractorSpec</string>
 			<key>Identifier</key>
 			<string>productInteractorName</string>
 			<key>Name</key>
@@ -46,7 +46,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___Presenter</string>
+			<string>___VARIABLE_productName:identifier___PresenterSpec</string>
 			<key>Identifier</key>
 			<string>productPresenterName</string>
 			<key>Name</key>
@@ -56,27 +56,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___Models</string>
-			<key>Identifier</key>
-			<string>productModelsName</string>
-			<key>Name</key>
-			<string>Models name:</string>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___Router</string>
-			<key>Identifier</key>
-			<string>productRouterName</string>
-			<key>Name</key>
-			<string>Router name:</string>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___Worker</string>
+			<string>___VARIABLE_productName:identifier___WorkerSpec</string>
 			<key>Identifier</key>
 			<string>productWorkerName</string>
 			<key>Name</key>
@@ -94,6 +74,6 @@
 	<key>SortOrder</key>
 	<string>0</string>
 	<key>Summary</key>
-	<string>This generates the view controller, interactor, presenter, models, router and worker.</string>
+	<string>This generates the view controller, interactor, presenter and worker specs.</string>
 </dict>
 </plist>
