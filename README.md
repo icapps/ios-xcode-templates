@@ -24,7 +24,23 @@ make uninstall_snippets
 
 At the moment we support the following files Templates:
 
-- MVVM: Generates a UIViewController subclass and a ViewModel.
+- *MVVM*: Generates the following:
+    - UIViewController
+    - ViewModel
+
+- *VIP*: Generates a the following components required for the VIP cycle:
+    - UIViewController
+    - Interactor
+    - Presenter
+    - Models
+    - Worker
+    - Router
+
+- *VIP Spec*: Generates a the following components required to test the VIP cycle:
+    - UIViewControllerSpec
+    - InteractorSpec
+    - PresenterSpec
+    - WorkerSpec
 
 ## Available code snippets
 
